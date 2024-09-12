@@ -24,12 +24,20 @@ COMING TO ERRORS, they are of two types: Syntax and Run-Time.
 SUPPOSE WE WRITE:
 print("hello world) AND THEN RUN IT;
 
-The code won’t run!. IDLE DETECTS IT IS A SYNTAX ERROR.
+The code won’t run!. IDLE DETECTS IT IS A SYNTAX ERROR WHILE WRITING CODE BEFORE RUNNING IT.
 
 AGAIN, NOW WE WRITE:
 print(hello, aaditya) AND THEN RUN IT;
 
 IDLE catches syntax errors before a program starts running, but some errors can’t be caught until a program is executed. These errors are Run-Time errors. Since names Hello and world haven’t been deﬁned anywhere, the program crashes.
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/idlelib/run.py", line 580, in runcode
+    exec(code, self.locals)
+  File "<pyshell#0>", line 1, in <module>
+NameError: name 'hello' is not defined. Did you mean: 'help'?
+
+
 
 ```
 
