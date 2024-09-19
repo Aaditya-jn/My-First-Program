@@ -42,7 +42,7 @@ NameError: name 'hello' is not defined. Did you mean: 'help'?
 ```
 
 ```
-2 PRACTICE QUESTIONS:
+2 PRACTICE QUESTIONS fdhvbidbisgu:
 
 1. Write a script that IDLE won’t let you run because it has a syntax error.
 
